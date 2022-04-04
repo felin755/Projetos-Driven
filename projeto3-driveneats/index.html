@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driven Eats</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-dish.css">
+    <link rel="stylesheet" href="selecionado.css">
+
+
+</head>
+
+<body>
+    <div class="tela-sobreposta sumido">
+        <div class="tela-confirmar">
+            <div class="titulo-tela-confirmar">Confirme seu pedido</div>
+            <div class="nome-preco">
+                <p class="nome-prato">Lamen do Narutin</p>
+                <p class="preco">R$46,00</p>
+            </div>
+            <div class="nome-preco">
+                <p class="nome-prato">Sakê</p>
+                <p class="preco">R$20,00</p>
+            </div>
+            <div class="nome-preco">
+                <p class="nome-prato">Dango</p>
+                <p class="preco">R$16,00</p>
+            </div>
+            <div class="total-preco">
+                <h2>Total</h2>
+                <h2>R$82,00</h2>
+            </div>
+            <div class="div-botao">
+                <button onclick="tudoCerto()" class="botao-tudo-certo">
+                    Tudo certo, pode pedir!
+                </button>
+            </div>
+            <div class="div-botao">
+                <button onclick="botaoCancelar()" class="botao-cancelar">
+                    Cancelar
+                </button>
+            </div>
+
+            
+        </div>
+    </div>
+    <div class="fundao">
+        <div class="header">
+            <h1>DrivenEats</h1>
+            <h2>Sua comida em 6 minutos</h2>
+        </div>
+
+        <div class="espacamento"></div>
+
+        <h1 class="titulos">Primeiro, seu prato</h1>
+        <div class="conteudos">
+
+            <button onclick="selecionaDish(this)" class="dish prato">
+                <img src="https://t2.rg.ltmcdn.com/pt/posts/7/0/4/lamen_japones_caseiro_facil_e_pratico_10407_600.jpg">
+                <div class="escrita-dish">
+                    <h1>Lamen do Narutin</h1>
+                    <h2>O preferido do nosso ídolo!</h2>
+                    <div class="inferior-dish">
+                        <p>R$46,00</p>
+                        <ion-icon class="sumido" name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+            </button>
+
+            <button onclick="selecionaDish(this)" class="dish prato">
+                <img src="https://t2.rg.ltmcdn.com/pt/posts/7/0/4/lamen_japones_caseiro_facil_e_pratico_10407_600.jpg">
+                <div class="escrita-dish">
+                    <h1>Lamen do Narutin</h1>
+                    <h2>O preferido do nosso ídolo!</h2>
+                    <div class="inferior-dish">
+                        <p>R$46,00</p>
+                        <ion-icon class="sumido" name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+            </button>
+
+            <button onclick="selecionaDish(this)" class="dish prato">
+                <img src="https://t2.rg.ltmcdn.com/pt/posts/7/0/4/lamen_japones_caseiro_facil_e_pratico_10407_600.jpg">
+                <div class="escrita-dish">
+                    <h1>Lamen do Narutin</h1>
+                    <h2>O preferido do nosso ídolo!</h2>
+                    <div class="inferior-dish">
+                        <p>R$46,00</p>
+                        <ion-icon class="sumido" name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+            </button>
+
+            <button onclick="selecionaDish(this)" class="dish prato">
+                <img src="https://t2.rg.ltmcdn.com/pt/posts/7/0/4/lamen_japones_caseiro_facil_e_pratico_10407_600.jpg">
+                <div class="escrita-dish">
+                    <h1>Lamen do Narutin</h1>
+                    <h2>O preferido do nosso ídolo!</h2>
+                    <div class="inferior-dish">
+                        <p>R$46,00</p>
+                        <ion-icon class="sumido" name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+            </button>
+            
+            
+        </div>
+
+        
+        <h1 class="titulos">Agora, sua bebida</h1>
+        <div class="conteudos">
+            <button onclick="selecionaBeverage(this)" class="dish bebida">
+                <img src="https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s314dc1be3b51df94/image/if18102f389beefbd/version/1571039485/image.jpg">
+                <div class="escrita-dish">
+                    <h1>Sakê</h1>
+                    <h2>Porque ninguém é de ferro</h2>
+                    <div class="inferior-dish">
+                        <p>R$20,00</p>
+                        <ion-icon class="sumido" name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+            </button>
+
+            <button onclick="selecionaBeverage(this)" class="dish bebida">
+                <img src="https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s314dc1be3b51df94/image/if18102f389beefbd/version/1571039485/image.jpg">
+                <div class="escrita-dish">
+                    <h1>Sakê</h1>
+                    <h2>Porque ninguém é de ferro</h2>
+                    <div class="inferior-dish">
+                        <p>R$20,00</p>
+                        <ion-icon class="sumido" name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+            </button>
+
+            <button onclick="selecionaBeverage(this)" class="dish bebida">
+                <img src="https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s314dc1be3b51df94/image/if18102f389beefbd/version/1571039485/image.jpg">
+                <div class="escrita-dish">
+                    <h1>Sakê</h1>
+                    <h2>Porque ninguém é de ferro</h2>
+                    <div class="inferior-dish">
+                        <p>R$20,00</p>
+                        <ion-icon class="sumido" name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+            </button>
+
+            <button onclick="selecionaBeverage(this)" class="dish bebida">
+                <img src="https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s314dc1be3b51df94/image/if18102f389beefbd/version/1571039485/image.jpg">
+                <div class="escrita-dish">
+                    <h1>Sakê</h1>
+                    <h2>Porque ninguém é de ferro</h2>
+                    <div class="inferior-dish">
+                        <p>R$20,00</p>
+                        <ion-icon class="sumido" name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+            </button>
+
+            
+        </div>
+
+        
+        <h1 class="titulos">Por fim, sua sobremesa</h1>
+        <div class="conteudos">
+            <button onclick="selecionaDessert(this)" class="dish sobremesa">
+                <img src="https://pm1.narvii.com/6301/326b0de9b07b541f1bea834ffbe069adada82dc9_hq.jpg">
+                <div class="escrita-dish">
+                    <h1>Dango</h1>
+                    <h2>Os prediletos da Mitarashi Anko</h2>
+                    <div class="inferior-dish">
+                        <p>R$16,00</p>
+                        <ion-icon class="sumido" name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+            </button>
+
+            <button onclick="selecionaDessert(this)" class="dish sobremesa">
+                <img src="https://pm1.narvii.com/6301/326b0de9b07b541f1bea834ffbe069adada82dc9_hq.jpg">
+                <div class="escrita-dish">
+                    <h1>Dango</h1>
+                    <h2>Os prediletos da Mitarashi Anko</h2>
+                    <div class="inferior-dish">
+                        <p>R$16,00</p>
+                        <ion-icon class="sumido" name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+            </button>
+
+            <button onclick="selecionaDessert(this)" class="dish sobremesa">
+                <img src="https://pm1.narvii.com/6301/326b0de9b07b541f1bea834ffbe069adada82dc9_hq.jpg">
+                <div class="escrita-dish">
+                    <h1>Dango</h1>
+                    <h2>Os prediletos da Mitarashi Anko</h2>
+                    <div class="inferior-dish">
+                        <p>R$16,00</p>
+                        <ion-icon class="sumido" name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+            </button>
+
+            <button onclick="selecionaDessert(this)" class="dish sobremesa">
+                <img src="https://pm1.narvii.com/6301/326b0de9b07b541f1bea834ffbe069adada82dc9_hq.jpg">
+                <div class="escrita-dish">
+                    <h1>Dango</h1>
+                    <h2>Os prediletos da Mitarashi Anko</h2>
+                    <div class="inferior-dish">
+                        <p>R$16,00</p>
+                        <ion-icon class="sumido" name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+            </button>
+            
+        </div>
+        <div class="espacamento2"></div>
+        <div class="fechamento">
+            <button class="fechamento-escrita" onclick="finalizarPedido()">
+                Selecione os 3 itens para fechar o pedido
+            </button>
+        </div>
+        
+    </div>
+    
+
+    
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>

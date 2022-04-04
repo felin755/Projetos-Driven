@@ -1,0 +1,242 @@
+.tela-sobreposta {
+    z-index: 2;
+    background-color: rgba(255, 255,255, 0.8);
+    position: fixed;
+    width: 416px;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tela-confirmar {
+    width: 353px;
+    height: 377px;
+    background-color: #50D074;
+    border-radius: 15px;
+    box-shadow: 0.7px 0.5px 7px gray;
+}
+
+.titulo-tela-confirmar {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nome-preco {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.nome-preco p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+
+color: #FFFFFF;
+}
+
+.total-preco {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.total-preco h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+
+    color: #FFFFFF;
+}
+
+.div-botao {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.botao-tudo-certo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    height: 55px;
+    width: 333px;
+    border-radius: 50px;
+    letter-spacing: 0.018em;
+    background-color: white;
+    color:#50D074;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.botao-cancelar {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: white;
+    border: 1px solid #50D074;
+    background-color:#50D074 ;
+}
+
+.fundao {
+    background-color: #E5E5E5;
+    width: 414px;
+    height: 1000px;
+    border: 1px solid #E5E5E5;
+}
+
+.header {
+    position: fixed;
+    height: 92px;
+    width: 414px;
+    background-color: #CF2B2B;
+    margin-bottom: 31px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    box-shadow: 0px 2px 7px gray;
+}
+
+.header h1 {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    
+    margin-left: 21px;
+}
+
+.header h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    margin-left: 21px;
+    color: #FFFFFF;
+}
+
+.espacamento {
+    height: 120px;
+}
+
+.titulos {
+    height: 25px;
+    width: 395px;
+    margin-left: 19px;
+
+    font-family: 'Righteous', cursive;
+    font-size: 26px;
+    color:#333333;
+
+}
+
+.conteudos {
+    /* height: 216px; */
+    height: 235px;
+    width: 395px;
+    margin-left: 19px;
+    margin-top: 17px;
+    margin-bottom: 27px;
+
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.fechamento-escrita {
+    height: 61px;
+    width: 364px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: white;
+
+    background-color:#CBCBCB;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white
+    
+}
+
+.fech-finaliza {
+    background-color: #32B72F;
+    color: white;
+}
+
+.espacamento2 {
+
+    height: 80px;
+}
+
+.fechamento {
+    height: 92px;
+    width: 416px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    background-color: #FFFFFF; 
+    z-index: 1;
+    
+}
+
+.inferior-dish {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inferior-dish ion-icon {
+    width: 16px;
+    height: 16px;
+    color: #32B72F;
+    padding-left: 30px;
+}

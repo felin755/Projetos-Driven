@@ -1,0 +1,39 @@
+.dishSelecionado {
+    height: 216px;
+    width: 161px;
+    box-sizing: border-box;
+    border-radius:10px;
+    border: 5px solid #32B72F;
+}
+
+
+.beverageSelecionado {
+    height: 216px;
+    width: 161px;
+    box-sizing: border-box;
+    border-radius:10px;
+    border: 5px solid #32B72F;
+}
+
+.dessertSelecionado {
+    height: 216px;
+    width: 161px;
+    box-sizing: border-box;
+    border-radius:10px;
+    border: 5px solid #32B72F;
+}
+
+.finalizarPedido {
+    box-sizing: border-box;
+    border-radius:10px;
+    border: 5px solid #32B72F;
+}
+
+.sumido {
+    display: none;
+}
+
+.confirmacaoPedido {
+    
+}
+
